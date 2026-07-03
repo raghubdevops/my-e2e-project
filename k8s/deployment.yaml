@@ -15,8 +15,7 @@ spec:
     spec:
       containers:
         - name: my-e2e-app
-          #image: raghube2eacr.azurecr.io/my-e2e-app:latest
-          image: raghube2eacr.azurecr.io/my-e2e-app:$(tag)
+          image: raghube2eacr.azurecr.io/my-e2e-app:latest
           ports:
             - containerPort: 8080
 

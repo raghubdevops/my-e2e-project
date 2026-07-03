@@ -2,13 +2,10 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-#@app.get("/")
-#def home():
- #   return {"message": "Hello from my E2E project!"}
-
 @app.get("/")
 def home():
-    return {"message": "Hello from my E2E project! Pipeline is fully automated!"}
+    return {"message": "Hello, Raghu's E2E project!"}
+
 
 @app.get("/health")
 def health():
