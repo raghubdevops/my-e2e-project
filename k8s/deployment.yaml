@@ -20,9 +20,4 @@ spec:
           ports:
             - containerPort: 8080
 
-      containers:
-        - name: my-e2e-app
-          image: raghube2eacr.azurecr.io/my-e2e-app:latest
-          imagePullPolicy: Always
-          ports:
-            - containerPort: 8080
+      
